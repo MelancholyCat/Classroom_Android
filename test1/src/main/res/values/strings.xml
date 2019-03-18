@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">test1</string>
+    <string name="q1text">球王"贝利"是哪个国家的人：</string>
+    <string name="q2text">下列足球队中，哪些队曾获得过世界杯冠军：</string>
+    <string name="b1text">提交</string>
+    <string name="b2text">重置</string>
+    <string name="rb1text">巴西</string>
+    <string name="rb2text">德国</string>
+    <string name="rb3text">美国</string>
+    <string name="rb4text">法国</string>
+    <string name="cb1text">法国国家队</string>
+    <string name="cb2text">中国国家队</string>
+    <string name="cb3text">巴西国家队</string>
+    <string name="cb4text">美国国家队</string>
+    <string name="ans_txt1"> </string>
+    <string name="ans_txt2"> </string>
+    <string name="ans_txt3"> </string>
+    <string name="ans_txt4"> </string>
+</resources>
