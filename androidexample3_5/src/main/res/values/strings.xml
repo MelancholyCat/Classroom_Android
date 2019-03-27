@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndroidExample3_5</string>
+    <string name="button1text">打开普通对话框</string>
+    <string name="button2text">打开输入对话框</string>
+</resources>

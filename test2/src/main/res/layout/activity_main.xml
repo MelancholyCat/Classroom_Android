@@ -55,6 +55,4 @@
             android:text="@string/next"
             android:textSize="20dp" />
     </LinearLayout>
-
-
 </LinearLayout>
