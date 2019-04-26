@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">test3</string>
+    <string name="txt1">欢迎进入本系统</string>
+    <string name="txt_btn1">切换页面</string>
 </resources>

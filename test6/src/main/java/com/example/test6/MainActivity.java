@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             }
             return tView.onTouchEvent(event);
-
         }
     }
 }

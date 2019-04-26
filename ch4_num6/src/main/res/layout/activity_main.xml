@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ch4_num6.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="动画演示"
+        android:textSize="26sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/rotateButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="旋转" />
+
+            <Button
+                android:id="@+id/scaleButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="缩放" />
+
+            <Button
+                android:id="@+id/alphaButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="淡入淡出" />
+
+            <Button
+                android:id="@+id/translateButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="移动" />
+        </LinearLayout>
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:text="@string/text1"
+            android:textSize="50dp"
+            android:id="@+id/text1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,1 +1,1 @@
-include ':app', ':test1', ':test2', ':test3', ':androidexample3_5', ':androidexample3_6'
+include ':app', ':test1', ':test2', ':test3', ':androidexample3_5', ':androidexample3_6', ':test4', ':test5', ':test6', ':ex4-5', ':test_4.1', ':test_4.2', ':test_4_2', ':ch4_num4', ':ch4_num5', ':ch4_num6', ':ex6_6', ':ex6_8', ':ch6_test1'

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">test4</string>
+    <string name="layout1_name">第1个页面</string>
+    <string name="layout2_name">第2个页面</string>
+    <string name="layout3_name">第3个页面</string>
+    <string name="layout4_name">第4个页面</string>
+</resources>
