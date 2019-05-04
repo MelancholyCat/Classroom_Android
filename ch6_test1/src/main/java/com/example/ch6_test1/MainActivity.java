@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
                     connPOST.setDoInput(true);
 
                     //----------发送数据--------
-                    PrintWriter printWriter = new PrintWriter(connPOST.getOutputStream(),true);
+                    PrintWriter printWriter = new PrintWriter(connPOST.getOutputStream(), true);
                     Map<String, Object> paramsMap = new HashMap<String, Object>();
 
                     paramsMap.put("username", name);
@@ -119,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
                     for (String s = buffer.readLine(); s != null; s = buffer.readLine()) {
                         stringBuilder.append(s);
                     }
-                    txt.setText(stringBuilder+"/n"+param+"/t"+paramsMap.toString());
+                    txt.setText(stringBuilder + "/n" + param + "/t" + paramsMap.toString());
                     buffer.close();
                 } catch (Exception e) {
                     e.printStackTrace();
